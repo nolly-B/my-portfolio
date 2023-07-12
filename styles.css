@@ -1,0 +1,78 @@
+:root {
+  --primary-color: #ffe9ec;
+  --secondary-color: #322514;
+  --button-color: #ffb6c1;
+}
+h1 {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  font-weight: bolder;
+}
+.work {
+  background-color: whitesmoke;
+
+  padding: 100px;
+}
+.certification {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.images {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 100%;
+  height: auto;
+  background-color: var(--primary-color);
+  padding: 100px;
+}
+
+.projects {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+.about-me {
+  background-color: #e0d6cc;
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.heading {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 150px;
+  margin-top: -10px !important;
+}
+.heading h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  margin-left: 100px;
+}
+.heading h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  margin-left: 100px;
+}
+.heading h2 {
+  font-family: "Poppins", sans-serif;
+  margin-left: 100px;
+}
+.btn-success {
+  margin-left: 100px;
+  background-color: var(--button-color) !important;
+  border: var(--button-color) !important;
+}
+.img-fluid {
+  width: 250px;
+  position: relative;
+  bottom: 18px;
+
+  margin-right: 100px;
+}
+
+.logo {
+  width: 100px;
+}
