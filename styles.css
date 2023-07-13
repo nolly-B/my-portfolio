@@ -18,15 +18,32 @@ h1 {
   font-weight: bold;
   text-align: center;
 }
-.images {
-  display: flex;
-  justify-content: space-evenly;
-  max-width: 100%;
-  height: auto;
-  background-color: var(--primary-color);
+.qualifications {
+  background-color: #fff0f3;
   padding: 100px;
 }
+.images {
+  max-width: 100%;
+  height: auto;
+  margin-left: 100px;
+}
 
+.certificate-images {
+  max-width: 100%;
+  height: auto;
+  margin-left: 50px;
+  color: #f699cd;
+}
+.certificate-links {
+  margin-left: 70px;
+  color: var(--secondary-color);
+}
+.shecodes {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  text-align: center;
+  margin-right: 110px;
+}
 .projects {
   font-family: "Lato", sans-serif;
   font-weight: 100;
@@ -75,4 +92,21 @@ h1 {
 
 .logo {
   width: 100px;
+}
+@media (max-width: 576px) {
+  .certificate-images {
+    position: relative;
+    right: 70px;
+  }
+  .shecodes {
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .certificate-links {
+    color: var(--secondary-color);
+    position: relative;
+    right: 70px;
+    text-decoration: none;
+  }
 }
