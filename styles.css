@@ -40,18 +40,22 @@ h1 {
 .certificate-images {
   max-width: 100%;
   height: auto;
-  margin-left: 50px;
+  margin-left: 0px;
   color: #f699cd;
 }
 .certificate-links {
-  margin-left: 70px;
+  margin-left: 40px;
   color: var(--secondary-color);
 }
 .shecodes {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
   text-align: center;
-  margin-right: 110px;
+  margin-right: 60px;
+}
+.responsive {
+  position: relative;
+  bottom: 32px;
 }
 .projects {
   font-family: "Dosis", sans-serif;
@@ -111,7 +115,7 @@ h1 {
 @media (max-width: 576px) {
   .certificate-images {
     position: relative;
-    right: 70px;
+    left: -10px;
   }
   .shecodes {
     font-family: "Poppins", sans-serif;
@@ -121,7 +125,7 @@ h1 {
   .certificate-links {
     color: var(--secondary-color);
     position: relative;
-    right: 70px;
+    right: 30px;
     text-decoration: none;
   }
   .headline {
@@ -133,5 +137,9 @@ h1 {
     font-weight: 100;
     text-align: center;
     margin-right: 0px;
+  }
+  .responsive {
+    text-align: center;
+    margin-top: 30px;
   }
 }
