@@ -135,4 +135,7 @@ h1 {
     text-align: center;
     margin-right: 0px;
   }
+  .responsive {
+    margin-top: 30px;
+  }
 }
