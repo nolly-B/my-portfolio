@@ -100,6 +100,10 @@ h1 {
 
   margin-right: 100px;
 }
+.responsive {
+  position: relative;
+  top: 0px !important;
+}
 
 .logo {
   width: 100px;
